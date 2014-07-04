@@ -1,4 +1,5 @@
 <?php
+     
 
 	use google\appengine\api\users\User;
 	use google\appengine\api\users\UserService;
@@ -20,7 +21,7 @@
   	<body>
 	    <?php
 		    if ($user) {
-                                echo 'HI THERE, WORLD' . htmlspecialchars($user->getNickname());
+                                echo 'HI WORLD' . htmlspecialchars($user->getNickname());
 
 				if (array_key_exists('content', $_POST)) {
 					echo "<br/><br/>";
