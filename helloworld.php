@@ -20,7 +20,7 @@
   	<body>
 	    <?php
 		    if ($user) {
-				echo 'GOODBYE, ' . htmlspecialchars($user->getNickname());
+				echo 'GOODBYE, WORLD' . htmlspecialchars($user->getNickname());
 
 				if (array_key_exists('content', $_POST)) {
 					echo "<br/><br/>";
