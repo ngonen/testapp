@@ -3,6 +3,6 @@ version: 1
 runtime: php
 api_version: 1
 
-
-- url: /.*
+handlers:
+url: /.*
   script: helloworld.php
